@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <h1> Registration Form</h1>
+    <body>
+        <title> registaration form</title>
+    <form > 
+        <fieldset><br>
+          <legend> Fill the Form </legend>
+
+      <table>
+        <tr>
+          <td bgcolor="green"><label for="name">Name:</label></td>
+          <td><input type="text" name="name" id="name" placeholder="your name"></td>
+        </tr>
+        <tr>
+          <td bgcolor="green"><label for="email">Email:</label></td>
+          <td><input type="text" name="email" id="email" placeholder="your email"></td>
+        </tr>
+        <tr>
+          <td bgcolor="green"><label for="password">Password:</label></td>
+          <td><input type="password" name="password" id="password"></td>
+        </tr>
+        <tr>
+          <td bgcolor="green"><label for="phoneNumber">Phone Number:</label></td>
+          <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
+        </tr>
+        <tr>
+          <td bgcolor="blue"><label for="gender">Gender:</label></td>
+          <td>
+            Male:<input type="radio" name="gender" value="male">
+            Female: <input type="radio" name="gender" value="female">
+            other: <input type="radio" name="gender" value="other"></td>
+        </tr>
+        <tr>
+          <td bgcolor="green"><label for="skill">skill:</label></td>
+          <td>
+            HTML:<input type="radio" name="skill" value="HTML"> 
+            CSS: <input type="radio" name="skill" value="CSS">
+            PHP: <input type="radio" name="skill" value="PHP"></td>
+        </tr>
+        <tr>
+          <td bgcolor="blue"><label for="language">language</label></td>
+          <td>
+            <select name="language" id="language">
+              <option value="">--Select language--</option>
+              <option value="English">English</option>
+              <option value="Bangla">Bangla</option>
+              <option value="Hindi">Hindi</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="green"><label for="zipcode">Zip code:</label></td>
+          <td><input type="number" name="zipcode" id="zipcode"></td>
+        </tr>
+        <tr>
+          <td bgcolor= "green"><label for="about">about:</label></td>
+          <td><textarea name="about" id="about" placeholder="about yourself"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="submit" class="submit" value="Register"/></td>
+        </tr>
+      </table>
+    </fieldset>   
+    </form>
+    </body>
+   </html>
